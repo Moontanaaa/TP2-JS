@@ -6,13 +6,13 @@ const canvas = document.getElementById('drawingCanvas');
 const context = canvas.getContext('2d');
 
 // rectangles
-const rect1 = new Rectangle(50, 50, 100, 50, 'darkred');
-const rect2 = new Rectangle(200, 100, 150, 75, 'lightblue');
-const rect3 = new Rectangle(400, 300, 120, 60, 'lightgreen');
+const rectangle1 = new Rectangle(60, 60, 110, 60, 'darkred');
+const rectangle2 = new Rectangle(200, 100, 150, 75, 'lightblue');
+const rectangle3 = new Rectangle(400, 300, 120, 60, 'lightgreen');
 
-rect1.draw(context);
-rect2.draw(context);
-rect3.draw(context);
+rectangle1.draw(context);
+rectangle2.draw(context);
+rectangle3.draw(context);
 
 // cercles
 const circle1 = new Circle(100, 300, 40, 'purple');
