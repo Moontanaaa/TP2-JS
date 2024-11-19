@@ -1,5 +1,5 @@
-import Rectangle from '../classes/Rectangle.js';
-import Circle from '../classes/Circle.js';
+import Rectangle from '../classes/rectangle.js';
+import Circle from '../classes/circle.js';
 
 // const
 const canvas = document.getElementById('drawingCanvas');
